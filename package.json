@@ -1,0 +1,27 @@
+{
+  "name": "ghibli_api",
+  "version": "0.0.1",
+  "description": "API of Ghibli Studio Films",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [
+    "API",
+    "GraphQl",
+    "Express"
+  ],
+  "author": "Sandy PIERRE-BeMonKey",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "node-rest-client": "^3.1.0",
+    "rx": "^4.1.0"
+  }
+}
